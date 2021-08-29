@@ -1,0 +1,18 @@
+.from-event-container {
+  display: flex;
+  justify-content: space-around;
+
+  .from-event-card {
+    max-width: 30%;
+    min-width: 30%;
+    border: 1px solid black;
+    border-radius: 5px;
+    .head {
+      background: rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+    .body {
+      padding: 20px;
+    }
+  }
+}
