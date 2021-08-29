@@ -7,6 +7,7 @@ import { ObservableComponent } from './observable/observable.component';
 import { RxOpListComponent } from './observable/rx-op-list/rx-op-list.component';
 import { FromEventComponent } from './observable/from-event/from-event.component';
 import { IntervalComponent } from './observable/interval/interval.component';
+import { TimerComponent } from './observable/timer/timer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { IntervalComponent } from './observable/interval/interval.component';
     ObservableComponent,
     RxOpListComponent,
     FromEventComponent,
-    IntervalComponent
+    IntervalComponent,
+    TimerComponent
   ],
   imports: [
     BrowserModule,
