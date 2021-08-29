@@ -23,7 +23,7 @@ export class IntervalComponent implements OnInit {
       console.log('res ', res);
 
       this._ob_serv.createLiElement('String ' + res, 'interval-ul');
-      if (res > 10) {
+      if (res >= 10) {
         // unsubscribe string_subscription observable
         this.string_subscription.unsubscribe();
       }
